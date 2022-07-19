@@ -1,0 +1,23 @@
+.background {
+  background-color: rgb(209, 200, 200);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.main_title {
+  font-family: "Secular One", sans-serif;
+  font-size: 30px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 13px;
+}
+.link:hover {
+  color: #7c7c7c;
+}
+.main_title:hover {
+  color: black;
+}
