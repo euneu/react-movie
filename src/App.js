@@ -9,7 +9,7 @@ import Group from "./routes/Group";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Routes>
           <Route
